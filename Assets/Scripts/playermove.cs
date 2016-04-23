@@ -50,8 +50,25 @@ public class playermove : MonoBehaviour
 		}
 		//Debug.Log (_mainCameraTransform.position.x + ", " + _mainCameraTransform.position.y);
         // Just use CnInputManager. instead of Input. and you're good to go
-        var inputVector = new Vector3(CnInputManager.GetAxis("Horizontal"), CnInputManager.GetAxis("Vertical"));
+		var inputVector = new Vector3(0,0,0);
+		if (Input.GetKey ("w")) {
+			inputVector = new Vector3 (0, 0, MovementSpeed);
+		}
+		if (Input.GetKey ("s")) {
+			inputVector = new Vector3 (0, 0, -MovementSpeed);
+		}
+		if (Input.GetKey ("a")) {
+			inputVector = new Vector3 (-MovementSpeed, 0, 0);
+		}
+		if (Input.GetKey ("d")) {
+			inputVector = new Vector3 (MovementSpeed, 0, 0);
+		}
+        inputVector = new Vector3(CnInputManager.GetAxis("Horizontal"), CnInputManager.GetAxis("Vertical"));
         Vector3 movementVector = Vector3.zero;
+
+		if (Input.GetKeyDown ("space")) {
+			transform.Translate (Vector3.up * 260 * Time.deltaTime, Space.World);
+		}
 
         // If we have some input
         if (inputVector.sqrMagnitude > 0.001f)
