@@ -19,6 +19,7 @@ public class playermove : MonoBehaviour
 	private Vector3 thirdPos = new Vector3(0f, 1.5f, -13f);
 	private Vector3 thirdRo = new Vector3(30f, 0f, 0f);
 	private int changePer = 0;
+	private Vector3 gravity = new Vector3(0, -9.8f, 0);
 
     private void OnEnable()
     {
@@ -67,20 +68,20 @@ public class playermove : MonoBehaviour
         Vector3 movementVector = Vector3.zero;
 
 		if (Input.GetKeyDown ("space")) {
-			transform.Translate (Vector3.up * 260 * Time.deltaTime, Space.World);
+			transform.Translate (Vector3.up *260f, Space.World);
 		}
 
         // If we have some input
-        if (inputVector.sqrMagnitude > 0.001f)
+        if (inputVector.sqrMagnitude > -0.001f)
         {
             movementVector = _mainCameraTransform.TransformDirection(inputVector);
-            movementVector.y = 0f;
+			movementVector.y = 0;
             movementVector.Normalize();
             _transform.forward = movementVector;
         }
 
 		//Debug.Log (movementVector.x + ", " + movementVector.y);
-        //movementVector += Physics.gravity;
+		movementVector += gravity*0.1f;
         _characterController.Move(movementVector * Time.deltaTime* 200);
     }
 }
