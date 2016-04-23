@@ -1,0 +1,150 @@
+fileFormatVersion: 2
+guid: 1324e7c4ae5319d4c9e65fbfd5118589
+timeCreated: 1461406209
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Mars_One1
+    100002: Mars_One1_MeshPart0
+    100004: Mars_One1_MeshPart1
+    100006: Mars_One4
+    100008: Mars_One5
+    100010: Mars_One6
+    100012: Mars_One___antenna
+    100014: Mars_One___flag
+    100016: Mars_One___ground
+    100018: Mars_One___m6
+    100020: Mars_One___module01
+    100022: Mars_One___module02
+    100024: Mars_One___module03
+    100026: Mars_One___module04
+    100028: Mars_One___module05
+    100030: Mars_One___sky
+    100032: //RootNode
+    400000: Mars_One1
+    400002: Mars_One1_MeshPart0
+    400004: Mars_One1_MeshPart1
+    400006: Mars_One4
+    400008: Mars_One5
+    400010: Mars_One6
+    400012: Mars_One___antenna
+    400014: Mars_One___flag
+    400016: Mars_One___ground
+    400018: Mars_One___m6
+    400020: Mars_One___module01
+    400022: Mars_One___module02
+    400024: Mars_One___module03
+    400026: Mars_One___module04
+    400028: Mars_One___module05
+    400030: Mars_One___sky
+    400032: //RootNode
+    2300000: Mars_One1_MeshPart0
+    2300002: Mars_One1_MeshPart1
+    2300004: Mars_One4
+    2300006: Mars_One5
+    2300008: Mars_One6
+    2300010: Mars_One___antenna
+    2300012: Mars_One___flag
+    2300014: Mars_One___ground
+    2300016: Mars_One___m6
+    2300018: Mars_One___module01
+    2300020: Mars_One___module02
+    2300022: Mars_One___module03
+    2300024: Mars_One___module04
+    2300026: Mars_One___module05
+    2300028: Mars_One___sky
+    3300000: Mars_One1_MeshPart0
+    3300002: Mars_One1_MeshPart1
+    3300004: Mars_One4
+    3300006: Mars_One5
+    3300008: Mars_One6
+    3300010: Mars_One___antenna
+    3300012: Mars_One___flag
+    3300014: Mars_One___ground
+    3300016: Mars_One___m6
+    3300018: Mars_One___module01
+    3300020: Mars_One___module02
+    3300022: Mars_One___module03
+    3300024: Mars_One___module04
+    3300026: Mars_One___module05
+    3300028: Mars_One___sky
+    4300000: Mars_One1_MeshPart0
+    4300002: Mars_One1_MeshPart1
+    4300004: Mars_One4
+    4300006: Mars_One5
+    4300008: Mars_One6
+    4300010: Mars_One___antenna
+    4300012: Mars_One___flag
+    4300014: Mars_One___ground
+    4300016: Mars_One___m6
+    4300018: Mars_One___module01
+    4300020: Mars_One___module02
+    4300022: Mars_One___module03
+    4300024: Mars_One___module04
+    4300026: Mars_One___module05
+    4300028: Mars_One___sky
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
